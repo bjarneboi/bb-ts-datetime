@@ -8,7 +8,7 @@ function isLeapYear(year: number): boolean {
 }
 
 
-function getWeekDayString(year: number, month: number, day: number): string {
+export function getWeekDayString(year: number, month: number, day: number): string {
     const date = new Date(year, month, day).getDay();
 
     let dayString = "";
