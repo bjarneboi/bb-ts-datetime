@@ -1,0 +1,23 @@
+{
+  "name": "bb-ts-datetime",
+  "version": "1.0.0",
+  "description": "Get dates and time in ts",
+  "keywords": [
+    "Date"
+  ],
+  "homepage": "https://github.com/bjarneboi/bb-ts-datetime#readme",
+  "bugs": {
+    "url": "https://github.com/bjarneboi/bb-ts-datetime/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bjarneboi/bb-ts-datetime.git"
+  },
+  "license": "ISC",
+  "author": "bjarneboi",
+  "type": "module",
+  "main": "index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
