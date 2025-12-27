@@ -83,3 +83,22 @@ export function getCurrentWeekNumber(): number {
 
     return weekNumber;
 }
+
+export function numberOfWeeksInYear(year: number): number {
+    const now = new Date()
+
+    let current = new Date(Date.UTC(year, 0, 1))
+    const lastDay = new Date(Date.UTC(year, 11, 31))
+
+    let weekNumber = 1;
+
+    while (current <= lastDay) {
+        current.setUTCDate(current.getUTCDate() + 1)
+
+        if (current <= lastDay && current.getUTCDay() === 1) {
+        weekNumber += 1;
+        }
+    }
+
+    return weekNumber;
+}
