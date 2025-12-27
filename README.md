@@ -11,3 +11,5 @@ getCurrentYearString() - Returns the current year as a string. Format: "YYYY-MM-
 getCurrentTimeString() - Returns the current time as a string. Format: "HH:MM:SS"
 
 getCurrentWeekNumber() - Returns the current week number, as a number. Does the calculation for it, which makes it reusable and can be implemented in projects for simplicity.
+
+numberOfWeeksInYear(year: number) - Returns the number of weeks in the year, given as a parameter.
