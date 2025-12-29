@@ -1,6 +1,6 @@
 {
   "name": "bb-ts-datetime",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Get dates and time in ts",
   "keywords": [
     "Date"

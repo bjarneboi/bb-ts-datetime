@@ -8,6 +8,8 @@ getCurrentDateString() - Returns the current date as a string.
 
 getCurrentYearString() - Returns the current year as a string. Format: "YYYY-MM-DD"
 
+getCurrentYear() - Returns the current year as a number.
+
 getCurrentTimeString() - Returns the current time as a string. Format: "HH:MM:SS"
 
 getCurrentWeekNumber() - Returns the current week number, as a number. Does the calculation for it, which makes it reusable and can be implemented in projects for simplicity.

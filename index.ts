@@ -58,6 +58,10 @@ export function getCurrentYearString(): string {
     return nowString.split("-")[0];
 }
 
+export function getCurrentYear(): number {
+    return new Date().getFullYear();
+}
+
 export function getCurrentTimeString(): string {
     const nowString = nowISOString();
 
